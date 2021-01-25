@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+
+<p style="color: chocolate; font-size:30px"> Post Başlığı </p>
+<br>
+<p style="color: darkslategrey; font-size:20px"> <%= @post.title %> </p>
+<br>
+
+
+<p style="color: chocolate; font-size:30px"> Post İçeriği </p>
+<br>
+<p style="color:  darkslategrey; font-size:15px; width: inherit"> <%= @post.body %> </p>
+<br>
+
+<p style="color: darkblue; font-size:15px; text-align: right"> <%= link_to 'Düzenle', edit_post_path(@post) %> |
+  <%= link_to 'Geri', posts_path %> </p>
+
+<br>
+<h2 style="color: chocolate; font-size:30px"> Post'a Atılan Yorumlar</h2>
+<br><br>
+<div id="sub_comments">
+<%#Expands to render partial 'sub_comments/sub_comment' collection: @post.sub_comments %>
+<%= render @post.sub_comments %>
+</div>
+<%= render 'sub_comments/new', post: @post %>
+</div>

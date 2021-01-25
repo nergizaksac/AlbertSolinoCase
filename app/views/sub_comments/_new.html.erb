@@ -1,0 +1,12 @@
+
+<%= form_for([ @post, SubComment.new ], remote: true) do |form| %>
+
+  <br>
+  <h1 style="font-size:20px; color: seagreen; "> Yorum Yap</h1>
+
+<%= form.text_area :body, size: '50x10'%> <br>
+  <div class="form-group">
+    <%= form.submit "Tamam", class: "btn btn-primary" %>
+  </div>
+
+<% end %>

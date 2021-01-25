@@ -1,0 +1,31 @@
+<%= form_for @post do |form| %>
+  <% if post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
+      <ul>
+        <% post.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+<br>
+  <div class="field", style="float: none; font-size:20px ">
+    <p style="color: darkslategrey; font-size:20px">  <%= form.label :Başlık %> </p>
+    <%= form.text_field :title %>
+    <br>
+  </div>
+
+  <div class="field", style="float: none;font-size:20px">
+    <p style="color: darkslategrey; font-size:20px">  <%= form.label :İçerik %> </p>
+    <%= form.text_area :body %>
+    <br>
+  </div>
+
+  <div class="form-group">
+    <%= form.submit "Tamam", class: "btn btn-primary" %>
+  </div>
+
+<% end %>
+
