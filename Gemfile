@@ -60,4 +60,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development do
   gem 'sqlite3', '~> 1.4'
+  gem 'pg'
+  ruby "~> 2.3.0"
 end
