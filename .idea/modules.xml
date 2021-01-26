@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ruby-getting-started.iml" filepath="$PROJECT_DIR$/.idea/modules/ruby-getting-started.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/weblog.iml" filepath="$PROJECT_DIR$/.idea/weblog.iml" />
     </modules>
   </component>

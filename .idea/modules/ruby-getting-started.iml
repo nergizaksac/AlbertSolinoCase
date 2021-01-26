@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="RailsFacetType" name="Ruby on Rails">
+      <configuration>
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_SUPPORT_REMOVED" VALUE="false" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_TESTS_SOURCES_PATCHED" VALUE="true" />
+        <RAILS_FACET_CONFIG_ID NAME="RAILS_FACET_APPLICATION_ROOT" VALUE="$MODULE_DIR$/../../ruby-getting-started" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../ruby-getting-started">
+      <sourceFolder url="file://$MODULE_DIR$/../../ruby-getting-started/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ruby-getting-started/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ruby-getting-started/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/.bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/log" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ruby-getting-started/components" />
+    </content>
+    <orderEntry type="jdk" jdkName="RVM: ruby-3.0.0 [global]" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>
